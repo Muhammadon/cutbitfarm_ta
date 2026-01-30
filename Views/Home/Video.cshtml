@@ -1,0 +1,146 @@
+﻿@{
+    ViewData["Title"] = "Galeri Video Edukasi";
+}
+
+<div class="text-center py-5 bg-dark text-white rounded-bottom-4 mb-5">
+    <h1 class="fw-bold">Galeri Video Edukasi</h1>
+    <p class="text-white-50">Tonton dan pelajari karakteristik serta cara perawatan Ayam Ekor Lidi langsung dari ahlinya.</p>
+</div>
+
+<div class="container mb-5">
+    
+    <div class="row justify-content-center mb-5">
+        <div class="col-lg-10">
+            <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+                <div class="card-header bg-success text-white py-3">
+                    <h5 class="m-0 fw-bold"><i class="bi bi-star-fill text-warning me-2"></i> Video Pilihan Minggu Ini</h5>
+                </div>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/8PaDcZewcoQ" 
+                            title="Video Utama" 
+                            allowfullscreen 
+                            style="border:0;"></iframe>
+                </div>
+                <div class="card-body p-4">
+                    <h3 class="fw-bold">Mengenal Keindahan Ayam Ekor Lidi Original</h3>
+                    <p class="text-muted">Dalam video ini, kita akan melihat detail fisik ayam ekor lidi kualitas kontes, mulai dari bentuk ekor, postur tubuh, hingga warna bulu yang sesuai standar.</p>
+                    <div class="d-flex gap-2">
+                        <span class="badge bg-light text-dark border"><i class="bi bi-clock"></i> 10 Menit</span>
+                        <span class="badge bg-light text-dark border"><i class="bi bi-eye"></i> 1.2k Views</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="fw-bold mb-4 border-start border-4 border-success ps-3">Koleksi Terbaru</h3>
+    
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-4 hover-up">
+                <div class="ratio ratio-16x9 rounded-top-4">
+                    <iframe src="https://www.youtube.com/embed/ysz5S6P_8ny" 
+                            title="Tips Perawatan" allowfullscreen style="border:0;"></iframe>
+                </div>
+                <div class="card-body">
+                    <h5 class="fw-bold text-success">Tips Perawatan Harian</h5>
+                    <p class="small text-muted mb-0">Cara membersihkan kandang dan memandikan ayam agar bulu tetap mengkilap.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-4 hover-up">
+                <div class="ratio ratio-16x9 rounded-top-4">
+                    <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" 
+                            title="Pakan Terbaik" allowfullscreen style="border:0;"></iframe>
+                </div>
+                <div class="card-body">
+                    <h5 class="fw-bold text-success">Racikan Pakan Juara</h5>
+                    <p class="small text-muted mb-0">Rahasia campuran pakan untuk mempercepat pertumbuhan ekor.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-4 hover-up">
+                <div class="ratio ratio-16x9 rounded-top-4">
+                    <iframe src="https://www.youtube.com/embed/8PaDcZewcoQ" 
+                            title="Review Kandang" allowfullscreen style="border:0;"></iframe>
+                </div>
+                <div class="card-body">
+                    <h5 class="fw-bold text-success">Desain Kandang Ideal</h5>
+                    <p class="small text-muted mb-0">Inspirasi model kandang minimalis namun sehat untuk ayam ekor lidi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <a href="https://youtube.com" target="_blank" class="btn btn-danger btn-lg rounded-pill px-5 shadow-sm">
+            <i class="bi bi-youtube me-2"></i> Kunjungi Youtube
+        </a>
+    </div>
+
+</div>
+
+<style>
+    /* Efek hover sedikit naik ke atas biar interaktif */
+    .hover-up {
+        transition: transform 0.3s;
+    }
+    .hover-up:hover {
+        transform: translateY(-5px);
+    }
+</style>
+
+@* @{
+    ViewData["Title"] = "Video Edukatif Ayam Ekor Lidi";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+
+            <h2 class="mb-4 text-center">Video Ayam Ekor Lidi</h2>
+            <p class="text-center mb-5">
+                Berikut adalah beberapa video yang menampilkan aktivitas dan karakteristik Ayam Ekor Lidi.
+            </p>
+
+            <div class="row g-4">
+                <!-- Video 1 (YouTube embed) -->
+                <div class="col-md-6">
+                    <div class="card shadow-sm rounded-4">
+                        <div class="ratio ratio-16x9">
+                            <video controls>
+                                <source src="https://youtu.be/8PaDcZewcoQ?si=8rogpPI8VDo4BsrK" type="video/mp4">
+                                Browser Anda tidak mendukung pemutar video.
+                            </video>
+                            <iframe width="560" height="315" src="~/videos/video2.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Video ayam ekor lidi 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 2 (local file example) -->
+                <div class="col-md-6">
+                    <div class="card shadow-sm rounded-4">
+                        <div class="ratio ratio-16x9">
+                            <video controls>
+                                <source src="https://youtu.be/8PaDcZewcoQ?si=8rogpPI8VDo4BsrK" type="video/mp4">
+                                Browser Anda tidak mendukung pemutar video.
+                            </video>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/8PaDcZewcoQ?si=8rogpPI8VDo4BsrK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Video ayam ekor lidi 2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div> *@

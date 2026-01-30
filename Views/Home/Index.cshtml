@@ -1,0 +1,183 @@
+﻿@section Styles {
+    <link rel="stylesheet" href="~/css/home.css" />
+}
+
+@{
+    ViewData["Title"] = "Beranda";
+}
+
+<div class="p-5 mb-5 rounded-4 shadow-lg hero-gradient text-center">
+    <div class="container py-5 position-relative">
+        <h1 class="display-4 fw-bold fade-up">
+            Selamat Datang di <span class="text-warning">Cutbitfarm</span>
+        </h1>
+        <p class="col-md-8 fs-5 mx-auto mt-3 fade-up delay-1">
+            Pusat pengembangan, perawatan, dan penjualan  
+            <strong>Ayam Ekor Lidi kualitas kontes terbaik di Aceh</strong>.
+        </p>
+        <div class="d-flex justify-content-center gap-3 mt-4 fade-up delay-2">
+            <a asp-controller="Home" asp-action="Products" class="btn btn-warning btn-lg px-4 shadow">
+                <i class="bi bi-cart-fill"></i> Lihat Katalog
+            </a>
+            <a asp-controller="Home" asp-action="Video" class="btn btn-outline-light btn-lg px-4">
+                <i class="bi bi-play-circle"></i> Tonton Edukasi
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4">
+    <div class="col-md-4">
+        <div class="card-premium p-5 h-100">
+            <div class="icon-circle">
+                <i class="bi bi-book"></i>
+            </div>
+            <h3 class="fw-bold text-success">Edukasi</h3>
+            <p class="text-muted">
+                Panduan beternak ayam ekor lidi dari nol hingga mahir, disusun rapi & mudah dipahami.
+            </p>
+            <a asp-action="Edukatif" class="btn btn-outline-success mt-2">
+                Baca Panduan
+            </a>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card-premium p-5 h-100">
+            <div class="icon-circle">
+                <i class="bi bi-clipboard-heart"></i>
+            </div>
+            <h3 class="fw-bold text-success">Perawatan</h3>
+            <p class="text-muted">
+                Tips nutrisi, kesehatan, dan kebersihan kandang agar ayam tetap prima & produktif.
+            </p>
+            <a asp-action="Perawatan" class="btn btn-outline-success mt-2">
+                Tips Perawatan
+            </a>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card-premium p-5 h-100">
+            <div class="icon-circle">
+                <i class="bi bi-shield-check"></i>
+            </div>
+            <h3 class="fw-bold text-success">Karakteristik</h3>
+            <p class="text-muted">
+                Kenali ciri ayam ekor lidi original dan cara membedakannya dari kualitas biasa.
+            </p>
+            <a asp-action="Karakteristik" class="btn btn-outline-success mt-2">
+                Cek Karakteristik
+            </a>
+        </div>
+    </div>
+</div>
+
+
+@* @{
+    ViewData["Title"] = "Beranda";
+}
+
+<div class="p-5 mb-4 bg-light rounded-3 shadow-sm text-center border">
+    <div class="container-fluid py-5">
+        <h1 class="display-4 fw-bold text-success">Selamat Datang di Cutbitfarm</h1>
+        <p class="col-md-8 fs-4 mx-auto text-muted">
+            Pusat pengembangan, perawatan, dan penjualan Ayam Ekor Lidi kualitas kontes terbaik di Aceh.
+        </p>
+        <div class="d-flex justify-content-center gap-3 mt-4">
+            <a asp-controller="Home" asp-action="Products" class="btn btn-success btn-lg px-4 gap-3">
+                <i class="bi bi-cart-fill"></i> Lihat Katalog
+            </a>
+            <a asp-controller="Home" asp-action="Video" class="btn btn-outline-secondary btn-lg px-4">
+                <i class="bi bi-play-circle"></i> Tonton Edukasi
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="row align-items-md-stretch">
+    <div class="col-md-4 mb-3">
+        <div class="h-100 p-5 text-white bg-success rounded-3 shadow-sm">
+            <h2><i class="bi bi-book"></i> Edukasi</h2>
+            <p>Pelajari cara beternak ayam ekor lidi dari nol hingga mahir. Kami menyediakan panduan lengkap.</p>
+            <a asp-action="Edukatif" class="btn btn-outline-light" type="button">Baca Panduan</a>
+        </div>
+    </div>
+    
+    <div class="col-md-4 mb-3">
+        <div class="h-100 p-5 bg-light border rounded-3 shadow-sm">
+            <h2 class="text-success"><i class="bi bi-clipboard-heart"></i> Perawatan</h2>
+            <p>Tips menjaga kesehatan, nutrisi, dan kebersihan kandang agar ayam tetap sehat dan produktif.</p>
+            <a asp-action="Perawatan" class="btn btn-outline-success" type="button">Tips Perawatan</a>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+         <div class="h-100 p-5 bg-light border rounded-3 shadow-sm">
+            <h2 class="text-success"><i class="bi bi-shield-check"></i> Karakteristik</h2>
+            <p>Kenali karakteristik ayam ekor lidi asli (original) dan bagaimana membedakannya.</p>
+            <a asp-action="Karakteristik" class="btn btn-outline-success" type="button">Cek Karakteristik</a>
+        </div>
+    </div>
+</div> *@
+
+@* @{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Home Body -->
+<div class="container text-center mt-5">
+    <h2 class="mb-4">Selamat Datang di Cutbitfarm</h2>
+    <div class="row justify-content-center">
+
+        <!-- Menu 2 -->
+        <div class="col-4 col-md-2">
+            <a href="/Home/Edukatif" class="text-decoration-none text-success">
+                <i class="bi bi-book display-4"></i>
+                <p>Edukasi</p>
+            </a>
+        </div>
+
+        <div class="col-4 col-md-2">
+            <a href="/Home/Karakteristik" class="text-decoration-none text-success">
+                <i class="bi bi-clipboard2-heart-fill display-4"></i>
+                <p>Karakteristik</p>
+            </a>
+        </div>
+
+        <div class="col-4 col-md-2">
+            <a href="/Home/Perawatan" class="text-decoration-none text-success">
+                <i class="bi bi-clipboard-check-fill display-4"></i>
+                <p>Perawatan</p>
+            </a>
+        </div>
+
+        <div class="col-4 col-md-2">
+            <a href="/Home/Video" class="text-decoration-none text-success">
+                <i class="bi bi-file-earmark-play-fill display-4"></i>
+                <p>Video Edukasi</p>
+            </a>
+        </div>
+
+        <!-- Menu 1 -->
+        <div class="col-4 col-md-2">
+            <a href="/Home/Products" class="text-decoration-none text-success">
+                <i class="bi bi-basket display-4"></i>
+                <p>Katalog Produk</p>
+            </a>
+        </div>
+
+    
+
+        <!-- Menu 3 -->
+        <div class="col-4 col-md-2">
+            <a href="/Home/About" class="text-decoration-none text-success">
+                <i class="bi bi-info-circle display-4"></i>
+                <p>About</p>
+            </a>
+        </div>
+
+        
+
+    </div>
+</div> *@

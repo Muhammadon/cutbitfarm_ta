@@ -1,0 +1,295 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\views\\home\\video.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:views\\home\\video.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\views\\home\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:views\\home\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\views\\home\\edukatif.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:views\\home\\edukatif.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\views\\home\\perawatan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:views\\home\\perawatan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|c:\\users\\asus tuf\\source\\repos\\cutbitfarm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82816777-6F94-4091-86E3-5B0EFC743212}|Cutbitfarm.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edukatif.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Edukatif.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Edukatif.cshtml",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Edukatif.cshtml",
+              "RelativeToolTip": "Views\\Home\\Edukatif.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T14:47:23.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T01:08:54.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Order.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Order.cshtml",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Order.cshtml",
+              "RelativeToolTip": "Views\\Home\\Order.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T00:13:44.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Products.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Products.cshtml",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Products.cshtml",
+              "RelativeToolTip": "Views\\Home\\Products.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T00:09:23.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Video.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Video.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Video.cshtml",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Video.cshtml",
+              "RelativeToolTip": "Views\\Home\\Video.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-31T17:17:07.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Perawatan.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Perawatan.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Perawatan.cshtml",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Perawatan.cshtml",
+              "RelativeToolTip": "Views\\Home\\Perawatan.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-31T17:11:46.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-31T16:22:42.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-31T16:22:33.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-29T18:36:57.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-29T18:31:14.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T00:48:52.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T18:30:14.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-01T00:49:15.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T18:30:49.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T01:17:57.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ASUS TUF\\source\\repos\\Cutbitfarm\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-31T16:22:57.065Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

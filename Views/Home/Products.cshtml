@@ -1,0 +1,49 @@
+﻿@* Baris ini PENTING. Ini memberitahu View kalau dia akan menerima List of Product *@
+@model IEnumerable<Cutbitfarm.Models.Product>
+
+@{
+    ViewData["Title"] = "Katalog Produk";
+}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Katalog Produk Ayam Ekor Lidi</h2>
+    <p class="text-center mb-5">
+        Berikut adalah daftar produk yang tersedia terkait Ayam Ekor Lidi (Data Dinamis).
+    </p>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped align-middle">
+            <thead class="table-primary text-center">
+                <tr>
+                    <th scope="col">Gambar</th>
+                    <th scope="col">Nama Produk</th>
+                    <th scope="col">Deskripsi</th>
+                    <th scope="col">Harga</th>
+                    <th scope="col">Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                @* INI ADALAH FOREACH (Looping) *@
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">
+                            @* Url.Content memastikan link gambar aman *@
+                            <img src="@Url.Content(item.ImageUrl)" alt="@item.Name" width="100" class="rounded">
+                        </td>
+                        <td class="fw-bold">@item.Name</td>
+                        <td>@item.Description</td>
+                        <td class="fw-bold text-primary">
+                            @* Format uang ke Rupiah otomatis *@
+                            @item.Price.ToString("C0", new System.Globalization.CultureInfo("id-ID"))
+                        </td>
+                        <td class="text-center">
+                            @* Kita kirim ID produk ke halaman order *@
+                            <a asp-action="Order" asp-route-id="@item.Id" class="btn btn-sm btn-success">Pesan</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
