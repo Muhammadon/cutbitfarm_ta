@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cutbitfarm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1eaf8ca72105e49b6e9a1b19018d420bfa3ad3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cutbitfarm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cutbitfarm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

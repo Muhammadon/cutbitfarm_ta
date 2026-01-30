@@ -28,3 +28,4 @@
 /Users/maduns/Documents/Cutbitfarm/obj/Debug/net8.0/Cutbitfarm.pdb
 /Users/maduns/Documents/Cutbitfarm/obj/Debug/net8.0/Cutbitfarm.genruntimeconfig.cache
 /Users/maduns/Documents/Cutbitfarm/obj/Debug/net8.0/ref/Cutbitfarm.dll
+/Users/maduns/Documents/Cutbitfarm/obj/Debug/net8.0/Cutbitfarm.sourcelink.json

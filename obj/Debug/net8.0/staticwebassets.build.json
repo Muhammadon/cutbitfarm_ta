@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3QbyVU1qWHeAjFmRZd40SJO4DEY8iZ6G9zAePwjV734=",
+  "Hash": "99MP7IKEpXEZIinOSkw3fB65PzMA0VsTM5mu5bw7r94=",
   "Source": "Cutbitfarm",
   "BasePath": "_content/Cutbitfarm",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/maduns/Documents/Cutbitfarm/obj/Debug/net8.0/scopedcss/projectbundle/Cutbitfarm.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/maduns/Documents/Cutbitfarm/wwwroot/css/home.css",
+      "SourceId": "Cutbitfarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/maduns/Documents/Cutbitfarm/wwwroot/",
+      "BasePath": "_content/Cutbitfarm",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/home.css"
     },
     {
       "Identity": "/Users/maduns/Documents/Cutbitfarm/wwwroot/css/site.css",
