@@ -25,10 +25,6 @@
       "PackagePath": "staticwebassets/Images/owner.jpeg"
     },
     {
-      "Id": "/Users/maduns/Documents/Cutbitfarm/wwwroot/css/home.css",
-      "PackagePath": "staticwebassets/css/home.css"
-    },
-    {
       "Id": "/Users/maduns/Documents/Cutbitfarm/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
