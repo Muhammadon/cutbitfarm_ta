@@ -1,9 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Cutbitfarm.Controllers
 {
     public class AccountController : Controller
     {
+        private readonly SignInManager<IdentityUser> _signInManager;
+
+        public AccountController(SignInManager<IdentityUser> signInManager)
+        {
+            _signInManager = signInManager;
+        }
+
+        // ========== Login ==========
         public IActionResult Index()
         {
             return View();
@@ -12,22 +21,40 @@ namespace Cutbitfarm.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-             
             return View();
         }
 
         // POST: /Account/Login
         [HttpPost]
-        public IActionResult Login(string username, string password)
+        public async Task<IActionResult> Login(string email, string password)
         {
-            // Dummy check (replace with real authentication later)
-            if (username == "admin" && password == "123")
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
-                return RedirectToAction("Index", "Home");
+                ViewBag.Error = "Email dan password wajib diisi";
+                return View();
             }
 
-            ViewBag.Error = "Invalid username or password.";
+            var result = await _signInManager.PasswordSignInAsync(
+                email,
+                password,
+                isPersistent: false,
+                lockoutOnFailure: false
+            );
+
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Index", "Admin");
+            }
+
+            ViewBag.Error = "Login gagal. Email atau password salah.";
             return View();
+        }
+
+        // ========== Logout ==========
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Login");
         }
 
        

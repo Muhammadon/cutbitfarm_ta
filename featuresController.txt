@@ -1,0 +1,66 @@
+using Cutbitfarm.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+
+namespace Cutbitfarm.Controllers
+{
+    public class HomeController : Controller
+    {
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        [HttpGet]
+        public IActionResult Edukatif()
+        {
+
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Karakteristik()
+        {
+
+            return View();
+        }
+
+        public IActionResult Perawatan()
+        {
+            return View();
+        }
+
+        public IActionResult Video()
+        {
+            return View();
+        }
+
+        public IActionResult Products()
+        {
+            return View(products);
+        }
+
+        public IActionResult Order(int? id)
+        {
+            return View(productToOrder);
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+    }
+}

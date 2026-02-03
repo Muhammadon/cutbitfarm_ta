@@ -1,0 +1,52 @@
+@model Cutbitfarm.Models.Product
+
+@{
+    ViewData["Title"] = "Edit Produk";
+    Layout = "_LayoutAdmin";
+}
+
+<h3 class="mb-4">Edit Produk</h3>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="ImageUrl" />
+
+    <div class="mb-3">
+        <label class="form-label">Nama Produk</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Deskripsi</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Harga</label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Gambar Saat Ini</label><br />
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" width="150" class="img-thumbnail mb-2" />
+        }
+        else
+        {
+            <p class="text-muted">Belum ada gambar</p>
+        }
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ganti Gambar (Opsional)</label>
+        <input type="file" name="imageFile" class="form-control" />
+        <small class="text-muted">Kosongkan jika tidak ingin mengganti gambar</small>
+    </div>
+
+    <button type="submit" class="btn btn-success">Simpan Perubahan</button>
+    <a asp-action="Index" class="btn btn-secondary">Batal</a>
+</form>

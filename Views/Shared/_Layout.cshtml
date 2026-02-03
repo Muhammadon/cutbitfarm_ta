@@ -13,6 +13,11 @@
     @RenderSection("Styles", required: false)
 </head>
 <body class="d-flex flex-column h-100">
+
+    @section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    }
+    
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
             <div class="container">

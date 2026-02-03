@@ -1,0 +1,36 @@
+@model Cutbitfarm.Models.Product
+
+@{
+    ViewData["Title"] = "Hapus Produk";
+    Layout = "_LayoutAdmin";
+}
+
+<h3 class="text-danger mb-3">Hapus Produk</h3>
+
+<div class="alert alert-warning">
+    <strong>Peringatan!</strong> Produk ini akan dihapus permanen.
+</div>
+
+<div class="card mb-3" style="max-width: 500px;">
+    <img src="@Model.ImageUrl" class="card-img-top" />
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text">@Model.Description</p>
+        <p class="fw-bold">
+            @Model.Price.ToString("C0", new System.Globalization.CultureInfo("id-ID"))
+        </p>
+    </div>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+
+    <button type="submit" class="btn btn-danger">
+        Ya, Hapus
+    </button>
+
+    <a asp-action="Index" class="btn btn-secondary">
+        Batal
+    </a>
+</form>
